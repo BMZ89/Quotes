@@ -1,0 +1,68 @@
+ :root {
+     --pink-lace: #f5cce8;
+     --plum-web: #ec9ded;
+     --middle-purple: #c880b7;
+     --pearly-purple: #9f6ba0;
+     --dark-purpe: #4a2040;
+ }
+
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: sans-serif;
+ }
+
+ body {
+     min-height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     font-size: 1.1rem;
+     background-color: var(--dark-purpe);
+     padding: 5rem;
+ }
+
+ .container {
+     background-color: white;
+     border-radius: 20px;
+     padding: 4rem 1.5rem;
+     box-shadow: 0px 2px 15px -5px rgba(0, 0, 0, 1);
+ }
+
+ h2 {
+     font-size: 2rem;
+     margin-bottom: 0.5rem;
+     color: var(--dark-purpe);
+     border-radius: 5px;
+ }
+
+ p {
+     padding: 1.4rem 0;
+     font-weight: 300;
+ }
+
+ em {
+     display: block;
+     font-size: normal;
+     margin-bottom: 1rem;
+ }
+
+ button {
+     font-size: 1.1rem;
+     border: none;
+     cursor: pointer;
+     background-color: var(--dark-purpe);
+     color: #ffff;
+     padding: 0.7rem 1.1rem;
+     border-radius: 1.5rem;
+     outline: 0;
+     margin-top: 1rem;
+ }
+
+ @media screen and (min-width:700px) {
+     p {
+         width: 600px;
+     }
+ }
